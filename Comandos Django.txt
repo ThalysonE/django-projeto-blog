@@ -1,0 +1,28 @@
+$ python3 -m venv myvenv -> cria um ambiente virtual para separar os projetos
+
+myvenv\Scripts\activate ->inicia o ambiente virtual
+
+Instalando Dajango:
+
+python -m pip install --upgrade pip
+
+cria o arquivo requirements
+
+pip install -r requirements.txt
+
+
+
+Criando um novo projeto:
+
+django-admin.exe startproject mysite .
+
+python manage.py migrate -> cria um banco de dados
+
+python manage.py runserver-> roda o servidor
+
+
+Criar uma aplicação
+
+python manage.py startapp blog
+
+python manage.py createsuperuser
